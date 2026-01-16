@@ -253,6 +253,20 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
+/* footer section */
+.footer-container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+.footer-container p{
+    font-size: 1.25rem;
+    color: #424242;
+    text-align: center;
+}
 
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
@@ -316,6 +330,9 @@ header{
     }
     .sponspors-card img{
         width: 100%;
+    }
+    footer{
+        padding: 0px 10px;
     }
 
 }
